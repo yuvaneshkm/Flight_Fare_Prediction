@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>flight_price</title>
+</head>
+
+<body>
+
+    <style>
+        body {
+          background-image: url("https://petapixel.com/assets/uploads/2022/05/take-photo-out-an-airplane-window-800x534.jpg");
+          background-position: 200%;
+          background-size: cover;
+          color:rgb(255, 255, 255);
+        }
+    </style>
+
+    <form action="\predict" method="POST">
+    <center>
+
+        <h1 style="color:black">Flight Price Prediction</h1>
+        <h2 style="color:black">Fly high to meet the sky ✈️</h2>
+        <hr>
+        <br>
+        <br>
+
+        <table>
+
+            <tr>
+                <td><h2>No Of Stops :</h2></td>
+                <td>
+                    <select name="Stops" id="Stops" required>
+                        <option>Non-stop</option>
+                        <option>One-stop</option>
+                        <option>Two-stops</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><h2>Depature Date and Time :</h2></td>
+                <td><input type="datetime-local" name="Dep_Time" id="Dep_Time" required></td>
+            </tr>
+
+            <tr>
+                <td><h2>Airline Name :</h2></td>
+                <td>
+                    <select name="Airline" id="Airline" required>
+                        <option>Jet Airways</option>
+                        <option>Air India</option>
+                        <option>GoAir</option>
+                        <option>IndiGo</option>
+                        <option>Multiple carriers</option>
+                        <option>SpiceJet</option>
+                        <option>Vistara</option>
+                        <option>Air Asia</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><h2>Source :</h2></td>
+                <td>
+                    <select name="Source" id="Source" required>
+                        <option>Delhi</option>
+                        <option>Kolkata</option>
+                        <option>Banglore</option>
+                        <option>Mumbai</option>
+                        <option>Chennai</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><h2>Destination :</h2></td>
+                <td>
+                    <select name="Destination" id="Destination" required>
+                        <option>Banglore</option>
+                        <option>New Delhi</option>
+                        <option>Hyderabad</option>
+                        <option>Cochin</option>
+                        <option>Kolkata</option>
+                        <option>Delhi</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <br>
+
+        <input type="submit" value="Submit">
+        <br>
+
+        <h3>{{prediction_text}}</h3>
+        <br>
+
+        <p><b>@ Yuvanesh K M</b></p>
+
+    </center>
+</body>
+
+</html>
