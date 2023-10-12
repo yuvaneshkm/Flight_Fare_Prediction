@@ -11,7 +11,7 @@ pip install -r requirements.txt
     
 ## Technology Used
 
-[<img target="_blank" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fabctrainings.in%2Fcourses%2Fpython%2FOWOlMv%2Babc-trainersSIiVAXouFX3Veg%3D%3D%2F&psig=AOvVaw1gXCefhNltNTiYMAbv5eLN&ust=1697220280920000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIDqubGM8YEDFQAAAAAdAAAAABAE" width=170>](https://docs.python.org/3/)
+[<img target="_blank" src="https://www.shutterstock.com/image-photo/poznan-pol-feb-6-2021-laptop-1943572456" width=170>](https://docs.python.org/3/)
 
 [<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>](https://flask.palletsprojects.com/en/1.1.x/)
 
